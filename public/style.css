@@ -1,0 +1,129 @@
+div.nav{
+    border-radius: 100px;
+    border: 10px solid rgb(189, 66, 53);
+    background-color: rgb(255, 251, 240);
+    padding: 40px;
+    margin: 10px;
+    display: inline-block;
+    max-width: 200px;
+    position:relative;
+}
+div.container{
+    background-color: rgb(255, 251, 240);
+    padding: 40px;
+    margin: 30px;
+    border-radius: 100px;
+    border: 10px solid rgb(189, 66, 53);
+
+    
+
+
+
+}
+
+div.containermain{
+    border-radius: 100px;
+    border: 10px solid rgb(189, 66, 53);
+    background-color: antiquewhite;
+    padding: 40px;
+    margin: 10px;
+    position:relative;
+    width: fit-content;
+
+    
+
+}
+
+h1{
+    font-size: 70px;
+    color: brown;
+}
+
+ul{
+    padding: 40px;
+    margin: 10px;
+}
+
+div.innerbox{
+    padding: 40px;
+    margin: 10px;
+    background-color: rgb(255, 251, 240);
+    flex: 1;
+    border-radius: 100px;
+    border: 10px solid rgb(189, 66, 53);
+    position:relative;
+    max-width:100%;
+    height:auto;
+    
+}
+
+img{
+    margin: 10px;
+    border-radius: 150px;
+    border: 10px solid rgb(189, 66, 53);
+    
+}
+
+}
+
+div.header{
+    background-color: rgb(255, 248, 239);
+    padding: 40px;
+    border-radius: 50px;
+    border: 5px solid rgb(189, 66, 53);
+    margin: 30px;
+    padding:30px;
+  
+   
+}
+
+p{
+    
+    margin: 10px;
+
+}
+
+div.header{
+    display: inline-flex;
+    max-width:100%;
+}
+
+div.footer{
+    padding: 40px;
+    margin: 10px;
+    background-color: rgb(255, 251, 240);
+    flex: 1;
+    max-height: 500px;
+    border-radius: 100px;
+    border: 10px solid rgb(189, 66, 53);
+    position:absolute;
+}
+
+div.inviscontainer{
+   
+}
+
+a:link,  a:visited {
+    text-decoration: none;
+    background-color: rgb(189, 66, 53);
+    font-size: 20px;
+    color:antiquewhite;
+    text-align: center;
+  }
+  
+  
+  a:hover, a:active {
+    text-decoration: underline;
+    background-color: rgb(189, 66, 53);
+    font-size: 20px;
+    color: antiquewhite;
+    text-align: center;
+  }
+  
+  div.button{
+    padding: 40px;
+    margin: 10px;
+    background-color: rgb(189, 66, 53);
+  border-radius: 100px;
+  border: 10px solid rgb(189, 66, 53);
+    }
