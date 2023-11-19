@@ -37,6 +37,10 @@ div.containermain{
 h1{
     font-size: 70px;
     color: brown;
+    padding: 40px;
+     margin: 10px;
+     display: inline;
+
 }
 
 ul{
@@ -80,6 +84,8 @@ div.header{
 p{
     
     margin: 10px;
+    font-family: 'Gideon+Roman' ,serif;
+
 
 }
 
@@ -103,7 +109,7 @@ div.inviscontainer{
    
 }
 
-a:link,  a:visited {
+nav.a:link,  nav.a:visited {
     text-decoration: none;
     background-color: rgb(189, 66, 53);
     font-size: 20px;
@@ -112,12 +118,23 @@ a:link,  a:visited {
   }
   
   
-  a:hover, a:active {
+  nav.a:hover, nav.a:active {
     text-decoration: underline;
     background-color: rgb(189, 66, 53);
     font-size: 20px;
-    color: antiquewhite;
+    color: rgb(243, 200, 144);
     text-align: center;
+  }
+
+  a:link,  a:visited {
+    text-decoration: none;
+    color: rgb(243, 200, 144);
+  }
+  
+  
+  a:hover, a:active {
+    text-decoration: underline;
+    color: rgb(243, 200, 144);
   }
   
   div.button{
@@ -127,3 +144,4 @@ a:link,  a:visited {
   border-radius: 100px;
   border: 10px solid rgb(189, 66, 53);
     }
+
